@@ -109,9 +109,7 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 		width:90%;
 	}
 	#logo {
-		left:8%;
-		width:10%;
-		
+		display:none;
 	}
 	#gegevens-tabel {
 	
