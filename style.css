@@ -90,7 +90,7 @@ iframe
 html::-webkit-scrollbar{ display: none; }
 html { -ms-overflow-style: none; scrollbar-width: none; }
 
-@media screen and (min-width:300px)
+@media only screen and (min-width: 768px) 
 {
 	body{
 		
@@ -100,7 +100,7 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 		width:55%;
 	}
 }
-@media screen and (max-width:300px)
+@media screen and (max-width:768px)
 {
 	body{
 		background-color:#616161;
