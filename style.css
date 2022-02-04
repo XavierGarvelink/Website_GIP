@@ -1,0 +1,117 @@
+body{
+	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
+	background-color:#616161;
+	color:#FFFFFF;
+}
+a{
+	margin-right:1%;
+}
+nav{
+	font-size:130%;
+	height: 10%;
+}
+nav a{
+	text-decoration:none;
+	color:lightgrey;
+}
+nav a:hover{
+	color:#F04520;
+}
+article p{
+	width:70%;
+	margin-left:15%;
+	font-size:110%;
+}
+header,article,nav{
+	background-color:#616161;
+}
+#gegevens-tabel {
+  display:fixed;
+  border-collapse: collapse;
+  width: 55%;
+  font-size: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.gegevens-tabel-data {
+  border: 0;
+  text-align: left;
+  padding: 1%;
+} tr:nth-child(even) { background: #707070; }
+tr:nth-child(odd) { background: #787878; }
+/*voor kleine letters aanbod */
+#kleine {
+	font-size:20%;
+}
+/*voor nav */
+#huidig
+{
+	text-decoration:underline;
+}
+
+header, article{
+	padding:10px 10px 10px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2px;
+	margin-bottom:0;
+	width:90%;
+}
+article dl{
+	text-align:left;
+	width:55%;
+	margin-left:25%;
+}
+dd
+{
+	margin-top:0.5%
+}
+#logo{
+	position:absolute;
+	width:7%;
+	top:3%;
+	left: 25%;
+}
+iframe
+{
+	margin-top:2%;
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:600px;
+	width:600; 
+	height:500;
+	overflow:hidden;
+	background:none;
+	height:40%;
+	width:50%; 
+}
+html::-webkit-scrollbar{ display: none; }
+html { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media screen and (min-width:300px)
+{
+	body{
+		
+		background-color:#292929;
+	}
+	header, article{
+		width:55%;
+	}
+}
+@media screen and (max-width:300px)
+{
+	body{
+		background-color:#616161;
+	}
+	header, article{
+		width:90%;
+	}
+	#logo {
+		left:8%;
+		width:10%;
+		
+	}
+}
+
