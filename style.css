@@ -107,6 +107,8 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 	}
 	header, article{
 		width:90%;
+	}
+	article{
 		background-color:#292929;
 	}
 	#logo {
