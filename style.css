@@ -107,6 +107,7 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 	}
 	header, article{
 		width:90%;
+		background-color:#292929;
 	}
 	#logo {
 		display:none;
@@ -114,9 +115,6 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 	#gegevens-tabel {
 	
 	font-size: 80%;
-	header,article{
-		background-color:#292929;
-	} 
 	
 }
 	
