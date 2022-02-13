@@ -11,7 +11,7 @@ footer{
 	margin-right:auto;
 	margin-bottom:1%;
 	margin-top:auto;
-	font-size:30%;
+	font-size:50%;
 }
 nav{
 	font-size:130%;
@@ -124,7 +124,10 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 	#gegevens-tabel {
 	
 	font-size: 80%;
-	
+	}
+	footer{
+		margin-left:35%;
+	}
 }
 	
 	
