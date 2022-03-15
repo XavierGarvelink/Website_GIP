@@ -12,6 +12,11 @@ footer{
 	margin-bottom:1%;
 	margin-top:auto;
 	font-size:70%;
+	
+}
+footer a{
+	
+	color:white;
 }
 nav{
 	font-size:130%;
@@ -28,6 +33,10 @@ article p{
 	width:70%;
 	margin-left:15%;
 	font-size:110%;
+}
+article a{
+	color: lightgrey;
+	text-decoration:none;
 }
 header,article,nav{
 	background-color:#616161;
