@@ -36,7 +36,7 @@ article p{
 	font-size:110%;
 }
 article a{
-	color: lightgrey;
+	color: white;
 	text-decoration:none;
 }
 header,article,nav{
@@ -64,6 +64,9 @@ tr:nth-child(odd) { background: #787878; }
 #huidig
 {
 	text-decoration:underline;
+}
+#Terug{
+	float:left;
 }
 
 header, article{
