@@ -1,5 +1,5 @@
 body{
-	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
+	font-family: lucida, raster;
 	background-color:#616161;
 	color:#FFFFFF;
 }
@@ -124,7 +124,7 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
   /*width: 850px; */
   
   margin: auto;
-  /*margin-top:2px;*/
+  margin-top:2px;
   margin-bottom: 8%; /* Same height as footer */
   /*padding: 50px 0; */
 
@@ -171,6 +171,12 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 	footer{
 		margin-left:35%;
 	}
+	.content{
+  margin-bottom: 18%; /* Same height as footer */
+}
+.fixed_footer{
+  height: 8%;
+}
 }
 	
 	
