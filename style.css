@@ -50,12 +50,35 @@ header,article,nav{
   margin-left:auto;
   margin-right:auto;
 }
+#taken{
+	display:fixed;
+	border-collapse: collapse;
+	width: 55%;
+	font-size: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+}
+#vakken{
+	display:fixed;
+	border-collapse: collapse;
+	width: 55%;
+	font-size: 100%;
+	margin-left:42%;
+	margin-right:auto;
+	margin-top:5%;
+}
+
+
+
 .gegevens-tabel-data {
   border: 0;
   text-align: left;
   padding: 1%;
-} tr:nth-child(even) { background: #707070; }
-tr:nth-child(odd) { background: #787878; }
+} 
+
+#gegevens-tabel tr:nth-child(even) { background: #707070; }
+#gegevens-tabel tr:nth-child(odd) { background: #787878; }
 /*voor kleine letters aanbod */
 #kleine {
 	font-size:20%;
