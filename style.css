@@ -58,7 +58,14 @@ header,article,nav{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:5%;
+	text-align:left;
 }
+th{
+	height:50px;
+}
+
+
+
 #vakken{
 	display:fixed;
 	border-collapse: collapse;
@@ -142,6 +149,11 @@ html { -ms-overflow-style: none; scrollbar-width: none; }
 		width:55%;
 	}
 }
+#taken p{
+	margin-left:2%;
+}
+
+
 
 .content{
   /*width: 850px; */
