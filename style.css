@@ -101,6 +101,12 @@ th{
 #Terug{
 	float:left;
 }
+#terug:hover{
+	color:#F04520;
+}
+table a:hover{
+	color:#F04520;
+}
 
 header, article{
 	padding:10px 10px 10px;
