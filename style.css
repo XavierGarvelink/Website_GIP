@@ -6,6 +6,9 @@ body{
 a{
 	margin-right:1%;
 }
+#hidden{
+	margin-right:0%;
+}
 footer{
 	/*margin-left:46%;
 	margin-right:auto;
